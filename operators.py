@@ -29,3 +29,25 @@ variable = 2 ** 6
 # sqrt() racine carré
 variable = math.sqrt(4)
 variable = 4**0.5
+
+
+# ++ et --  n existe pas en python utiliser += et -=
+
+# égalité
+
+results = 1==1
+print(results)
+
+# les grandeurs
+results = 123 < 42
+print(results)
+
+# plus grand ou egal
+
+results = 123 <= 42
+print(results)
+
+# inégalité
+
+results = 123 != 42
+print(results)
