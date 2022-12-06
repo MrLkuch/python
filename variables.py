@@ -71,3 +71,25 @@ b=c
 
 print(a)
 
+# transtypage
+
+variable = "123"
+variable = int(variable)
+print(type(variable))
+
+variable = float(variable)
+
+variable = 3.14
+variable = int(variable)
+
+variable = 3.14
+variable = str(variable)
+
+#
+variable = 2.71
+# recuperer la partie entiere dans a
+a = int(variable)
+print(a)
+# recuperer la partie apres la virgule dans b
+b = variable-a
+print(b)
