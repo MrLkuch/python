@@ -51,3 +51,40 @@ print(results)
 
 results = 123 != 42
 print(results)
+
+# les intervales
+# < > <= >=
+
+my_number = random.randint(0, 100)
+result = 0<= my_number <50
+print(result)
+result = 50 < my_number <= 100
+print(result)
+
+
+# opérateur AND
+
+result = True and False
+
+# opérateur OR
+
+result = True or False
+
+# opérateur not
+
+result = not True
+
+# converstion implicite en booléen
+my_number7 = 7
+if my_number7:
+    print("autre chose que zero")
+else:
+    print("zero")
+
+# listes
+
+fruits = [ 'banane', 'cerise', 'ananas']
+
+# opérateur d'inclusion
+result = 'ananas' in fruits
+print(result)
