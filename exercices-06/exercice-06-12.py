@@ -9,5 +9,5 @@ nb=0
 for i in range(len(my_list)):
     if my_list[i]<=10:
         nb += 1
-    i+=1
+
 print(nb)
